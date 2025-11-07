@@ -24,4 +24,12 @@ jobs:
           file_ext: xml
           file_format: xml
           rambo_mode: true
+    
+      - name: Debug secrets presence
+        run: |
+          echo "Project ID length: ${#LOKALISE_PROJECT_ID}"
+          echo "Token length: ${#LOKALISE_API_TOKEN}"
+        env:
+          LOKALISE_PROJECT_ID: ${{ secrets.LOKALISE_PROJECT_ID }}
+          LOKALISE_API_TOKEN: ${{ secrets.LOKALISE_API_TOKEN }}     
 
