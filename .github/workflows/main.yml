@@ -1,0 +1,40 @@
+name: Pull Lokalise translations
+
+on:
+  workflow_dispatch:
+
+jobs:
+  lokalise_pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull translations (retail module)
+        uses: lokalise/lokalise-pull-action@v2
+        with:
+          api_token: ${{ secrets.LOKALISE_TOKEN }}
+          project_id: ${{ secrets.LOKALISE_PROJECT_ID }}
+          file_format: xml
+          destination: retail/src/main/res
+          original_filenames: true
+          clean_destination: false
+
+      # Optional: pull for another module
+      # - name: Pull translations (app module)
+      #   uses: lokalise/lokalise-pull-action@v2
+      #   with:
+      #     api_token: ${{ secrets.LOKALISE_TOKEN }}
+      #     project_id: ${{ secrets.LOKALISE_PROJECT_ID }}
+      #     file_format: xml
+      #     destination: app/src/main/res
+      #     original_filenames: true
+      #     clean_destination: false
+
+      - name: Commit updated translations
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add retail/src/main/res
+          git diff --cached --quiet || git commit -m "chore: update Lokalise translations"
+      - name: Push
+        run: git push
