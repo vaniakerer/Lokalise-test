@@ -22,6 +22,3 @@ jobs:
           translations_path: retail/src/main/res
           file_format: xml
           file_ext: xml
-          destination: retail/src/main/res
-          original_filenames: true
-          clean_destination: false
