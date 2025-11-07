@@ -19,9 +19,7 @@ jobs:
           project_id: ${{ secrets.LOKALISE_PROJECT_ID }} 
           base_lang: en
           translations_path: retail/src/main/res
-          name_pattern: |
-            "values/strings.xml"
-            "values-*/strings.xml"
+          name_pattern: "values-*/strings.xml"
           file_ext: xml
           file_format: xml
           flat_naming: true
