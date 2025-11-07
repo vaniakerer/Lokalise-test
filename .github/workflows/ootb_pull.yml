@@ -20,7 +20,7 @@ jobs:
           project_id: ${{ secrets.LOKALISE_PROJECT_ID }}
           base_lang: en
           translations_path: retail/src/main/res
-          file_format: xml
+          file_format: xml_android
           file_ext: xml
           destination: retail/src/main/res
           original_filenames: true
