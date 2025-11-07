@@ -21,7 +21,7 @@ jobs:
           translations_path: "retail/src/main/res/values*/strings.xml"
           file_ext: xml
           file_format: xml
-          flat_naming: true
+          flat_naming: false
 
       - name: Debug secrets presence
         run: |
