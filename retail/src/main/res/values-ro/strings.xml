@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="welcome_header_github">EN Hello hello</string>
+  <string name="welcome_header_github_two">EN Hello hello 2</string>
+
 </resources>
