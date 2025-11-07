@@ -19,11 +19,12 @@ jobs:
           project_id: ${{ secrets.LOKALISE_PROJECT_ID }} 
           base_lang: en
           translations_path:  |
-            retail/src/main/res/values/strings.xml
-            retail/src/main/res/values-ro/strings.xml
+            retail/src/main/res/values/
+            retail/src/main/res/values-ro/
           file_ext: xml
+          name_pattern: "strings.xml"
           file_format: xml
-          flat_naming: true
+          flat_naming: false
 
       - name: Debug secrets presence
         run: |
