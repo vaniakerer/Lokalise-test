@@ -19,5 +19,4 @@ jobs:
           project_id: LOKALISE_PROJECT_ID
           base_lang: en
           translations_path: retail/src/main/res/values
-          file_format: xml
           file_ext: xml
