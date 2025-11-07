@@ -16,11 +16,11 @@ jobs:
         uses: lokalise/lokalise-push-action@v4.0.0
         with:
           api_token: ${{ secrets.LOKALISE_API_TOKEN }}
-          project_id: LOKALISE_PROJECT_ID
+          project_id: ${{ secrets.LOKALISE_PROJECT_ID }} 
           base_lang: en
           translations_path: |
             app/src/main/res/values/strings.xml
             app/src/main/res/values-ro/strings.xml
           file_ext: xml
           file_format: xml
-          rambo_mode: true
+
