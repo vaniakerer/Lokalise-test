@@ -23,6 +23,7 @@ jobs:
           name_pattern: "strings.xml"
           file_format: xml
           flat_naming: false
+          rambo_mode: true
 
       - name: Debug secrets presence
         run: |
