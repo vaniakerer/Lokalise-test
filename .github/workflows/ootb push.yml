@@ -18,5 +18,5 @@ jobs:
           api_token: ${{ secrets.LOKALISE_API_TOKEN }}
           project_id: LOKALISE_PROJECT_ID
           base_lang: en
-          translations_path: retail/src/main/res/values
+          translations_path: retail/src/main/res
           file_ext: xml
