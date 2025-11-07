@@ -23,4 +23,5 @@ jobs:
             app/src/main/res/values-ro/strings.xml
           file_ext: xml
           file_format: xml
+          rambo_mode: true
 
