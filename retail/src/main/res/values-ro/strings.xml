@@ -2,5 +2,6 @@
 <resources>
   <string name="welcome_header_github">EN Hello hello</string>
   <string name="welcome_header_github_two">EN Hello hello 2</string>
+  <string name="test">TEST</string>
 
 </resources>
