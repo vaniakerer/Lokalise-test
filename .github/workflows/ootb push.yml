@@ -20,7 +20,7 @@ jobs:
           base_lang: en
           translations_path: retail/src/main/res/
           file_ext: xml
-          name_pattern: "values*/strings.xml"
+          name_pattern: "values-*/strings.xml"
           file_format: xml
           flat_naming: false
           rambo_mode: false
