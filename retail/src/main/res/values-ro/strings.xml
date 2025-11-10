@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-  <string name="test">test romanianasfasf</string>
-  <string name="test_new">RO value</string>
-  <string name="welcome_header_github">Bunasssafasf</string>
+  <string name="created_newly">Localise Test</string>
+  <string name="test">Localise test</string>
+  <string name="test_new">Localise value</string>
+  <string name="welcome_header_github">Localise Hello</string>
 </resources>
