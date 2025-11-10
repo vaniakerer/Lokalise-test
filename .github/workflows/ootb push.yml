@@ -17,8 +17,8 @@ jobs:
         with:
           api_token: ${{ secrets.LOKALISE_TOKEN }}
           project_id: ${{ secrets.LOKALISE_PROJECT_ID }} 
-          translations_path: "retail/src/main/res/values-**"
-          name_pattern: "strings.xml"
+          translations_path: retail/src/main/res/values
+          name_pattern: "**/strings.xml"
           base_lang: en
           file_ext: xml
           file_format: xml
