@@ -2,7 +2,7 @@
 <resources>
   <string name="created_newly">Test</string>
   <string name="test">test</string>
+  <string name="test_localise_added">Test</string>
   <string name="test_new">EN value</string>
   <string name="welcome_header_github">Hello</string>
-  <string name="welcome_header_github_two">Hello 2</string>
 </resources>
