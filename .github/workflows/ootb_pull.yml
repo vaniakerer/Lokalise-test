@@ -22,7 +22,6 @@ jobs:
           translations_path: | 
             retail/src/main/res/values
             retail/src/main/res/values-ro
-          name_pattern: "strings.xml"          
           always_pull_base: true
           file_format: xml
           file_ext: xml
