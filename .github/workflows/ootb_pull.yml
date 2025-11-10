@@ -20,6 +20,7 @@ jobs:
           project_id: ${{ secrets.LOKALISE_PROJECT_ID }}
           base_lang: en
           translations_path: retail/src/main/res/values
+          name_pattern: "strings.xml"          
           file_format: xml
           file_ext: xml
           pr_title: "Update translations for retail-usa"
