@@ -26,7 +26,6 @@ jobs:
           translations_path: retail/src/main/res
           file_format: xml
           file_ext: xml
-          skip_include_tags: true
           pr_title: "Update translations for retail-usa"
           pr_body: "This PR contains the latest translations from Lokalise for retail-usa."
           pr_labels: "translations,lokalise"
