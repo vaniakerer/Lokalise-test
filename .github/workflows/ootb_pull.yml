@@ -19,7 +19,7 @@ jobs:
           api_token: ${{ secrets.LOKALISE_TOKEN }}
           project_id: ${{ secrets.LOKALISE_PROJECT_ID }}
           base_lang: en
-          translations_path: retail/src/main/res/values-%LANG_ISO%
+          translations_path: retail/src/main/res/values*
           name_pattern: "strings.xml"          
           file_format: xml
           file_ext: xml
