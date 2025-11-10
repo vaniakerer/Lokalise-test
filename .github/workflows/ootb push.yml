@@ -22,8 +22,8 @@ jobs:
           file_ext: xml
           name_pattern: "values*/strings.xml"
           file_format: xml
-          flat_naming: true
-          rambo_mode: true
+          flat_naming: false
+          rambo_mode: false
 
       - name: Debug secrets presence
         run: |
