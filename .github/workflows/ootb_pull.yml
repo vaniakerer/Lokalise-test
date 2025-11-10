@@ -22,3 +22,7 @@ jobs:
           translations_path: retail/src/main/res/values
           file_format: xml
           file_ext: xml
+          pr_title: "Update translations for retail-usa"
+          pr_body: "This PR contains the latest translations from Lokalise for retail-usa."
+          pr_labels: "translations,lokalise"
+          git_commit_message: "chore: update translations for retail-usa"
