@@ -2,7 +2,10 @@ name: OOTB Pull changed translations from Lokalise
 
 on:
   workflow_dispatch:
-
+   inputs:
+      version:
+        description: 'app version'
+        required: true
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,5 +35,5 @@ jobs:
           git_commit_message: "chore: update translations for retail-usa"
           additional_params: >
             {
-              "include_tags": ["v1.2.2"]
+              "include_tags": ["${{ github.event.inputs.version }}"]
             }
