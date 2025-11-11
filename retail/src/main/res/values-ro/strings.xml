@@ -9,5 +9,6 @@
   <string name="welcome_header_github_3">Hello SAASFSF</string>
   <string name="welcome_header_github_4">Hello </string>
   <string name="welcome_header_github_5">Ro Hello 5</string>
-    <string name="welcome_header_github_2">Ro Hello 5</string>
+  <string name="welcome_header_github_2">Ro Hello 5</string>
+  <string name="test_tags_4">[TBT]Test Tag custom 4</string>
 </resources>
