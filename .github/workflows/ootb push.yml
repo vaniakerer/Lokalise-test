@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Optional version tag (e.g. 1.2.3). Leave blank to auto-detect.'
+        description: 'App version'
         required: true
         
 jobs:
