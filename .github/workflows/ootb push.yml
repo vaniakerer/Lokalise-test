@@ -25,6 +25,7 @@ jobs:
           file_ext: xml
           file_format: xml
           flat_naming: false
+          use_tag_tracking: true
           rambo_mode: false
           additional_params: >
             {
