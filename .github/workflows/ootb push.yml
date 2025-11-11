@@ -27,6 +27,10 @@ jobs:
           flat_naming: false
           rambo_mode: false
           use_tag_tracking: true
+          additional_params: >
+            {
+              "tags": "v1.2.2"
+            }
 
       - name: Debug secrets presence
         run: |
