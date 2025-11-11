@@ -4,12 +4,14 @@
   <string name="test">Localise test</string>
   <string name="test_localise_added">Ro Test</string>
   <string name="test_new">Localise value</string>
+  <string name="test_tags">Test Tag Ro124214</string>
+  <string name="test_tags_2">124124</string>
+  <string name="test_tags_3">214124</string>
+  <string name="test_tags_4">asfaasf</string>
+  <string name="test_tags_5">Blah</string>
   <string name="welcome_header_github">Localise Hello</string>
   <string name="welcome_header_github_2">hello romanian</string>
   <string name="welcome_header_github_3">Hello SAASFSF</string>
   <string name="welcome_header_github_4">Hello </string>
   <string name="welcome_header_github_5">Ro Hello 5</string>
-  <string name="welcome_header_github_2">Ro Hello 5</string>
-  <string name="test_tags_4">[TBT]Test Tag custom 4</string>
-    <string name="test_tags_5">[TBT]Test Tag custom 5</string>
 </resources>
