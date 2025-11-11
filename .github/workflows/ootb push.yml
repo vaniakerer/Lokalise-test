@@ -33,7 +33,7 @@ jobs:
           rambo_mode: false
           additional_params: >
             {
-              "tags": ["${{ steps.version.outputs.version }}"]
+              "tags": ["${{ github.event.inputs.version }}"]
             }
 
       - name: Debug secrets presence
