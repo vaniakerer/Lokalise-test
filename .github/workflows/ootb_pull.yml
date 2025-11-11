@@ -30,3 +30,7 @@ jobs:
           pr_body: "This PR contains the latest translations from Lokalise for retail-usa."
           pr_labels: "translations,lokalise"
           git_commit_message: "chore: update translations for retail-usa"
+          additional_params: >
+            {
+              "include_tags": ["v1.2.2"]
+            }
