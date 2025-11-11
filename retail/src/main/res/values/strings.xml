@@ -4,15 +4,10 @@
   <string name="test">test</string>
   <string name="test_localise_added">Test</string>
   <string name="test_new">EN value</string>
+  <string name="test_tags">Test Tag Main 2</string>
   <string name="welcome_header_github">Hello</string>
   <string name="welcome_header_github_2">Hello</string>
   <string name="welcome_header_github_3">Hello 3</string>
   <string name="welcome_header_github_4">Hello 4</string>
   <string name="welcome_header_github_5">Hello 5</string>
-  <string name="test_tags">Test Tag Main 2</string>
-  <string name="test_tags_2">Test Tag custom</string>
-  <string name="test_tags_3">Test Tag custom 3</string>
-  <string name="test_tags_4">Test Tag custom 4</string>
-  <string name="test_tags_5">Test Tag custom 5</string>
-
 </resources>
