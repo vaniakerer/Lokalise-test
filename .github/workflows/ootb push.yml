@@ -1,7 +1,11 @@
 name: OOTB Push base language translations to Lokalise
 on:
   workflow_dispatch:
-
+    inputs:
+      version:
+        description: 'Optional version tag (e.g. 1.2.3). Leave blank to auto-detect.'
+        required: true
+        
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -29,7 +33,7 @@ jobs:
           rambo_mode: false
           additional_params: >
             {
-              "tags": ["v1.2.2"]
+              "tags": ["${{ steps.version.outputs.version }}"]
             }
 
       - name: Debug secrets presence
